@@ -3,6 +3,7 @@ import profilePhoto from "./assets/rafi-profile.jpg";
 
 const EMAIL = "rafi.arif2003@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/rafi-muhammad-arif-6a8568175/";
+const GITHUB = "https://github.com/rafimhmdarif";
 
 const navItems = [
   ["Tentang", "about"],
@@ -331,6 +332,9 @@ function App() {
         <div className="socials">
           <a href={LINKEDIN} target="_blank" rel="noreferrer">
             LinkedIn
+          </a>
+          <a href={GITHUB} target="_blank" rel="noreferrer">
+            GitHub
           </a>
           <a href={`mailto:${EMAIL}`}>Email</a>
         </div>
