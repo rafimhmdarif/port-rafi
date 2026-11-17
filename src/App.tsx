@@ -150,10 +150,10 @@ function App() {
           <h1>
             Rafi Muhammad <span>Arif</span>
           </h1>
-          <p className="hero-role">Web &amp; Mobile Developer — Mahasiswa Teknik Informatika</p>
+          <p className="hero-role">UI/UX Designer &amp; Web Developer — Mahasiswa Teknik Informatika</p>
           <p className="hero-intro">
             Saya membangun pengalaman digital yang fungsional, cepat, dan nyaman digunakan—dari
-            aplikasi mobile sampai produk berbasis web.
+            tampilan user sampai produk berbasis web.
           </p>
 
           <div className="hero-actions">
@@ -207,10 +207,10 @@ function App() {
             </div>
             <div className="project-content">
               <div>
-                <span className="card-label">Aplikasi mobile</span>
-                <h3>Aplikasi Absensi</h3>
+                <span className="card-label">Prototype Aplikasi mobile</span>
+                <h3>Prototype Aplikasi Absensi</h3>
                 <p>
-                  Aplikasi absensi berbasis Flutter yang saya buat saat magang mandiri di Direktorat
+                  Prototype Aplikasi absensi berbasis Flutter yang saya buat saat magang mandiri di Direktorat
                   Ajudan Jenderal TNI Angkatan Darat.
                 </p>
               </div>
@@ -265,7 +265,7 @@ function App() {
                 <strong>2</strong>
                 <span>Sertifikat</span>
               </div>
-              <p>Programming Essentials in C (Cisco) dan Studi Independen Bersertifikat.</p>
+              <p>Programming Essentials in C (Cisco), Magang Mandiri dan Studi Independen Bersertifikat.</p>
             </div>
           </article>
         </div>
