@@ -32,7 +32,7 @@ const timeline = [
   {
     title: "Member GDSC Widyatama",
     role: "Google Developer Student Club",
-    date: "Okt 2023 – Sekarang",
+    date: "Okt 2023 – Agu 2024",
   },
   {
     title: "Staff Divisi Seni dan Olahraga",
@@ -262,7 +262,7 @@ function App() {
             <h3>Sertifikasi</h3>
             <div className="certificate-row">
               <div>
-                <strong>2</strong>
+                <strong>3</strong>
                 <span>Sertifikat</span>
               </div>
               <p>Programming Essentials in C (Cisco), Magang Mandiri dan Studi Independen Bersertifikat.</p>
