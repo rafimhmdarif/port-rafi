@@ -2,6 +2,8 @@
 
 Website portofolio pribadi untuk menampilkan proyek, pengalaman, dan keahlian saya sebagai mahasiswa Teknik Informatika yang berfokus pada pengembangan web dan mobile.
 
+Demo: [rafi-arif.vercel.app](https://rafi-arif.vercel.app)
+
 ## Fitur
 
 - Tampilan responsif untuk desktop dan mobile

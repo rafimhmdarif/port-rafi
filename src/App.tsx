@@ -148,7 +148,7 @@ function App() {
             <span className="status-dot" /> Tersedia untuk kesempatan baru
           </div>
           <h1>
-            Rafi Muhammad <span>Arif.</span>
+            Rafi Muhammad <span>Arif</span>
           </h1>
           <p className="hero-role">Web &amp; Mobile Developer — Mahasiswa Teknik Informatika</p>
           <p className="hero-intro">
