@@ -1,5 +1,8 @@
 import { useEffect, useState, type ReactNode } from "react";
 import profilePhoto from "./assets/rafi-profile.jpg";
+import loginShot from "./assets/prototype-login.jpg";
+import profileShot from "./assets/prototype-profile.jpg";
+import "./prototype.css";
 
 const EMAIL = "rafi.arif2003@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/rafi-muhammad-arif-6a8568175/";
@@ -198,20 +201,27 @@ function App() {
 
         <div className="bento-grid">
           <article className="project-card featured">
-            <div className="project-image">
+            <div className="project-image screens">
               <img
-                src="https://images.unsplash.com/photo-1650661926447-9efb2610f64c?auto=format&fit=crop&w=1600&q=85"
-                alt="Laptop di meja kerja dengan pencahayaan biru"
+                className="shot shot-login"
+                src={loginShot}
+                alt="Halaman login prototipe aplikasi absensi"
+              />
+              <img
+                className="shot shot-profile"
+                src={profileShot}
+                alt="Halaman profil prototipe aplikasi absensi"
               />
               <span className="project-number">01</span>
             </div>
             <div className="project-content">
               <div>
-                <span className="card-label">Prototype Aplikasi mobile</span>
-                <h3>Prototype Aplikasi Absensi</h3>
+                <span className="card-label">Prototipe aplikasi mobile</span>
+                <h3>Prototipe Aplikasi Absensi</h3>
                 <p>
-                  Prototype Aplikasi absensi berbasis Flutter yang saya buat saat magang mandiri di Direktorat
-                  Ajudan Jenderal TNI Angkatan Darat.
+                  Prototipe antarmuka aplikasi absensi berbasis Flutter (halaman login, daftar, dan
+                  profil) yang saya buat saat magang mandiri di Direktorat Ajudan Jenderal TNI
+                  Angkatan Darat. Data pada tampilan adalah data contoh.
                 </p>
               </div>
               <div className="tags">

@@ -1,0 +1,59 @@
+/* Galeri screenshot pada kartu proyek unggulan.
+   Selektor sengaja dibuat lebih spesifik supaya menang atas aturan
+   `.project-image img` di index.css. */
+
+.project-image.screens {
+  min-height: 280px;
+  background: linear-gradient(
+    135deg,
+    var(--dark),
+    color-mix(in srgb, var(--blue) 30%, var(--dark))
+  );
+}
+
+.project-image.screens::after {
+  display: none;
+}
+
+.project-image.screens .shot {
+  position: absolute;
+  width: auto;
+  height: 46%;
+  aspect-ratio: 1000 / 494;
+  object-fit: cover;
+  filter: none;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+}
+
+.project-image.screens .shot-login {
+  top: 6%;
+  left: 5%;
+}
+
+.project-image.screens .shot-profile {
+  bottom: 6%;
+  right: 5%;
+}
+
+@media (max-width: 620px) {
+  .project-image.screens {
+    min-height: 300px;
+  }
+
+  .project-image.screens .shot {
+    height: auto;
+    width: 68%;
+  }
+
+  .project-image.screens .shot-login {
+    top: 8%;
+    left: 5%;
+  }
+
+  .project-image.screens .shot-profile {
+    bottom: 8%;
+    right: 5%;
+  }
+}
